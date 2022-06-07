@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    position: relative;
+  }
+
+.imgcircle{
+    clip-path: circle();
+    position: absolute;
+    top:2.5%;
+    left: 40%;
+
+}
